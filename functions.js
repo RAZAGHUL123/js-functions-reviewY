@@ -2,9 +2,19 @@
 // Write a function that takes an array of numbers as input.
 // Multiply each number by 2 and return the new array.
 
-function multiplyByTwo(numbers) {
+
   // Write your code here
+  function multiplyByTwo(numbers) {
+  let multipliedArray = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    multipliedArray.push(numbers[i] * 2);
+  }
+
+  return multipliedArray;
 }
+
+
 
 // Question 2: Square Numbers
 // Write a function that takes an array of numbers as input.
